@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E3BCEF1005862BCF3F53227 /* Pods_Tumblr_FeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB865F4BA2FF2F0350111FA /* Pods_Tumblr_FeedTests.framework */; };
 		4B1A96686FFDED85848F10E5 /* Pods_Tumblr_FeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0253222D21180405DACDFDE5 /* Pods_Tumblr_FeedUITests.framework */; };
+		59431074215683E300768CD0 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59431073215683E300768CD0 /* PhotoDetailsViewController.swift */; };
 		5956EF2F214CF53D00ED40B2 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EF2E214CF53D00ED40B2 /* PhotoTableViewCell.swift */; };
 		5988DAF0214C568800AD230A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5988DAEF214C568800AD230A /* AppDelegate.swift */; };
 		5988DAF2214C568800AD230A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5988DAF1214C568800AD230A /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 		5988DB10214C568C00AD230A /* Tumblr_FeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5988DB0F214C568C00AD230A /* Tumblr_FeedUITests.swift */; };
 		598E1868214D2BB5003D63CF /* Tumblr_Logos_2018.03.06_iOS Icon Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 598E1867214D2BB4003D63CF /* Tumblr_Logos_2018.03.06_iOS Icon Blue.png */; };
 		598E186A214D2BE8003D63CF /* Tumblr_Logos_2018.03.06_Wordmark Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 598E1869214D2BE8003D63CF /* Tumblr_Logos_2018.03.06_Wordmark Blue.png */; };
+		59DA0C772157E26F007A1630 /* InfiniteScrollActivityViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DA0C762157E26F007A1630 /* InfiniteScrollActivityViewViewController.swift */; };
 		5C9701E97F758AE9AFB939EC /* Pods_Tumblr_Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D69D63BBBDCF673276AAFC /* Pods_Tumblr_Feed.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,7 @@
 		0253222D21180405DACDFDE5 /* Pods_Tumblr_FeedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumblr_FeedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB865F4BA2FF2F0350111FA /* Pods_Tumblr_FeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumblr_FeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		524BAEA911D1CC489ED916E9 /* Pods-Tumblr FeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr FeedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr FeedUITests/Pods-Tumblr FeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59431073215683E300768CD0 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		5956EF2E214CF53D00ED40B2 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 		5988DAEC214C568800AD230A /* Tumblr Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tumblr Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5988DAEF214C568800AD230A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		5988DB11214C568C00AD230A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		598E1867214D2BB4003D63CF /* Tumblr_Logos_2018.03.06_iOS Icon Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tumblr_Logos_2018.03.06_iOS Icon Blue.png"; path = "../../../../Downloads/Tumblr Logos and Guidelines/PNG/Tumblr_Logos_2018.03.06_iOS Icon Blue.png"; sourceTree = "<group>"; };
 		598E1869214D2BE8003D63CF /* Tumblr_Logos_2018.03.06_Wordmark Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tumblr_Logos_2018.03.06_Wordmark Blue.png"; path = "../../../../Downloads/Tumblr Logos and Guidelines/PNG/Tumblr_Logos_2018.03.06_Wordmark Blue.png"; sourceTree = "<group>"; };
+		59DA0C762157E26F007A1630 /* InfiniteScrollActivityViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityViewViewController.swift; sourceTree = "<group>"; };
 		5ABF88C5780DAA35DA9BA78F /* Pods-Tumblr FeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr FeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr FeedTests/Pods-Tumblr FeedTests.release.xcconfig"; sourceTree = "<group>"; };
 		719FC79799071B3D35983896 /* Pods-Tumblr Feed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr Feed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr Feed/Pods-Tumblr Feed.release.xcconfig"; sourceTree = "<group>"; };
 		76F7CEB661DC2B68E99E3EE3 /* Pods-Tumblr FeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr FeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr FeedTests/Pods-Tumblr FeedTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				598E1867214D2BB4003D63CF /* Tumblr_Logos_2018.03.06_iOS Icon Blue.png */,
 				5988DAF8214C568C00AD230A /* LaunchScreen.storyboard */,
 				5988DAFB214C568C00AD230A /* Info.plist */,
+				59431073215683E300768CD0 /* PhotoDetailsViewController.swift */,
+				59DA0C762157E26F007A1630 /* InfiniteScrollActivityViewViewController.swift */,
 			);
 			path = "Tumblr Feed";
 			sourceTree = "<group>";
@@ -388,8 +394,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59431074215683E300768CD0 /* PhotoDetailsViewController.swift in Sources */,
 				5988DAF2214C568800AD230A /* ViewController.swift in Sources */,
 				5988DAF0214C568800AD230A /* AppDelegate.swift in Sources */,
+				59DA0C772157E26F007A1630 /* InfiniteScrollActivityViewViewController.swift in Sources */,
 				5956EF2F214CF53D00ED40B2 /* PhotoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
